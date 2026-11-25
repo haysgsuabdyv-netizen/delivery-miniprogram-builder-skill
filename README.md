@@ -4,11 +4,13 @@
 
 ## 安装
 
-在 Codex 中发送这条提示即可安装整套文件。
+[下载完整安装包 delivery-miniprogram-builder.zip](https://github.com/haysgsuabdyv-netizen/delivery-miniprogram-builder-skill/releases/download/v1.0.0/delivery-miniprogram-builder.zip)
 
-> 请从 https://github.com/haysgsuabdyv-netizen/delivery-miniprogram-builder-skill/tree/main/skills/delivery-miniprogram-builder 安装 `delivery-miniprogram-builder` Skill，连同目录里的模板、参考资料和校验脚本一起安装。
+在 **WorkBuddy** 中打开「专家·技能·连接器」，进入「技能」，选择「添加技能」和「上传技能」，选中下载的 ZIP 即可导入。模板、参考资料和校验脚本已随包提供。[WorkBuddy 技能导入说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills-Market#上传技能)
 
-也可通过 [GitHub Releases](https://github.com/haysgsuabdyv-netizen/delivery-miniprogram-builder-skill/releases) 下载源码 ZIP，解压后将 `skills/delivery-miniprogram-builder` 文件夹导入支持 Agent Skills 的工具。
+在 **Codex** 中发送下面这句话。
+
+> 请从 https://github.com/haysgsuabdyv-netizen/delivery-miniprogram-builder-skill/tree/v1.0.0/skills/delivery-miniprogram-builder 安装 `delivery-miniprogram-builder` Skill，连同目录里的模板、参考资料和校验脚本一起安装。
 
 ## 开始使用
 
@@ -20,7 +22,9 @@
 
 ## 环境要求
 
-生成开工判断和开发规格需要支持 Agent Skills 的工具。运行交付校验需要 Python 3。使用内置能力完成原生小程序搭建、云服务配置、预览和发布需要 WorkBuddy 的 `mini-program-development`。
+使用支持 Agent Skills 的工具即可整理开工判断和开发规格。运行随包的交付校验脚本时使用 Python 3。
+
+搭建、云服务接入、预览和发布时，Skill 将规格交给支持微信小程序开发的 WorkBuddy，调用它自带的 `mini-program-development`。发布体验版或正式版时，按 WorkBuddy 的提示完成微信小程序账号授权。[WorkBuddy 小程序发布说明](https://www.workbuddy.cn/docs/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/App-Publishing/Mini-Program)
 
 ## 许可证
 
